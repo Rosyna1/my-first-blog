@@ -53,6 +53,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'mysite.urls'
+LOGIN_REDIRECT_URL = '/'
 
 TEMPLATES = [
     {
